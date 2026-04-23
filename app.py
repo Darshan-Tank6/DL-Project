@@ -46,10 +46,10 @@ def load_models():
         import tensorflow as tf
 
         classifier = tf.keras.models.load_model(
-            os.path.join(MODEL_DIR, "vibe_classifier_best.h5")
+            os.path.join(MODEL_DIR, "vibe_classifier_best.h5"),compile=False
         )
         quote_gen = tf.keras.models.load_model(
-            os.path.join(MODEL_DIR, "quote_generator_best.h5")
+            os.path.join(MODEL_DIR, "quote_generator_best.h5"),compile=False
         )
 
         with open(os.path.join(MODEL_DIR, "tokenizer.pkl"), "rb") as f:
