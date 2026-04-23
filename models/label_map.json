@@ -1,0 +1,33 @@
+{
+  "class_indices": {
+    "epic_solitude": 0,
+    "ethereal_frost": 1,
+    "golden_hour": 2,
+    "midnight_dream": 3,
+    "mystic_green": 4,
+    "serene_horizon": 5,
+    "urban_grit": 6,
+    "wanderlust": 7
+  },
+  "idx_to_vibe": {
+    "0": "epic_solitude",
+    "1": "ethereal_frost",
+    "2": "golden_hour",
+    "3": "midnight_dream",
+    "4": "mystic_green",
+    "5": "serene_horizon",
+    "6": "urban_grit",
+    "7": "wanderlust"
+  },
+  "vibe_labels": [
+    "urban_grit",
+    "mystic_green",
+    "ethereal_frost",
+    "epic_solitude",
+    "serene_horizon",
+    "wanderlust",
+    "golden_hour",
+    "midnight_dream"
+  ],
+  "num_classes": 8
+}
